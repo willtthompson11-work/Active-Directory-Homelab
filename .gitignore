@@ -1,0 +1,15 @@
+# Never commit real secrets. If a file has a real password, key, or token, it belongs here.
+*password*.txt
+*passwd*.txt
+secrets/
+*.key
+*.pem
+id_rsa*
+
+# Big captures get huge fast — keep them out of the repo
+*.pcap
+*.pcapng
+
+# OS junk
+Thumbs.db
+.DS_Store
